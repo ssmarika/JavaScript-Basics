@@ -54,13 +54,13 @@
 //   },
 // };
 
-// ?READ
+// ? READ
 
 // console.log(studentDetail2["address"]["permanentAddress"]);
 
 // console.log(studentDetail2.address["permanentAddress"]);
 
-// ?UPSERT( Update or Insert)
+// ? UPSERT( Update or Insert)
 // studentDetail2.firstName = "Roashan";   //if the fiels is available it is updated
 // studentDetail2.age = 10;   //if the field is not available then that fiels is inserted
 
@@ -70,16 +70,7 @@
 //   perCapita: 1400,
 // };
 
-// ?DELETE
+// ? DELETE
 // delete nationDetail.perCapita;
 
 // console.log(nationDetail);
-
-const cupDetails = {
-  name: "Stanley boss ",
-  name: "Stanley girl",
-  brand: "Stanley",
-  color: "Red",
-};
-
-console.log(cupDetails);
