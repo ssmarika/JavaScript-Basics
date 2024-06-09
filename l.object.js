@@ -44,15 +44,15 @@
 // D => Delete/Remove
 
 // ? Nested object , address here is the nested object
-let studentDetail2 = {
-  firstName: "Ram",
-  lastName: "Joshi",
-  isGraduated: true,
-  address: {
-    permanentAddress: "Lalitpur",
-    temporaryAddress: "Patan",
-  },
-};
+// let studentDetail2 = {
+//   firstName: "Ram",
+//   lastName: "Joshi",
+//   isGraduated: true,
+//   address: {
+//     permanentAddress: "Lalitpur",
+//     temporaryAddress: "Patan",
+//   },
+// };
 
 // ?READ
 
@@ -64,13 +64,22 @@ let studentDetail2 = {
 // studentDetail2.firstName = "Roashan";   //if the fiels is available it is updated
 // studentDetail2.age = 10;   //if the field is not available then that fiels is inserted
 
-let nationDetail = {
-  name: "Nepal",
-  population: "3 crore",
-  perCapita: 1400,
-};
+// let nationDetail = {
+//   name: "Nepal",
+//   population: "3 crore",
+//   perCapita: 1400,
+// };
 
 // ?DELETE
-delete nationDetail.perCapita;
+// delete nationDetail.perCapita;
 
-console.log(nationDetail);
+// console.log(nationDetail);
+
+const cupDetails = {
+  name: "Stanley boss ",
+  name: "Stanley girl",
+  brand: "Stanley",
+  color: "Red",
+};
+
+console.log(cupDetails);
