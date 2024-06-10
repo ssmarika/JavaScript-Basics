@@ -42,10 +42,13 @@
 
 // console.log(obj1);
 
-const obj1 = {
-  name: "A",
-};
+// Todo: after array
+// const obj1 = {
+//   name: "A",
+// };
 
-const obj2 = {
-  name: "B",
-};
+// const obj2 = {
+//   name: "B",
+// };
+
+// const obj1Keys= Object.keys(obj1);
