@@ -38,21 +38,21 @@
 
 //? Example 3
 
-const studentDetail2 = {
-  firstName: "Ram",
-  lastName: "Joshi",
-  isGraduated: true,
-  address: {
-    permanentAddress: "Lalitpur",
-    temporaryAddress: "Patan",
-  },
-};
+// const studentDetail2 = {
+//   firstName: "Ram",
+//   lastName: "Joshi",
+//   isGraduated: true,
+//   address: {
+//     permanentAddress: "Lalitpur",
+//     temporaryAddress: "Patan",
+//   },
+// };
 
-const {
-  firstName,
-  lastName,
-  isGraduated,
-  address: { permanentAddress, temporaryAddress },
-} = studentDetail2;
+// const {
+//   firstName,
+//   lastName,
+//   isGraduated,
+//   address: { permanentAddress, temporaryAddress },
+// } = studentDetail2;
 
-console.log(permanentAddress);
+// console.log(permanentAddress);
