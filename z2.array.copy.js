@@ -22,11 +22,16 @@
 // ! REST OPERATOR  (sir ko git ma refer)
 
 const getProduct = (x, y, ...otherValues) => {
-  let prod = otherValues.reducez((total, item) => {});
+  let prod = otherValues.reduce((total, item) => {
+    total = total * item;
+    return total;
+  }, 1);
 
-  return prod;
+  let product = prod * x * y;
+
+  return product;
 };
 
-const result = getProduct(1, 2, 3, 4, 5, 6);
+const result = getProduct(1, 2, 3);
 
 console.log(result);
