@@ -46,11 +46,10 @@ const newlaptopList = laptopList.map((item) => {
       ...item,
       price: newprice,
     };
-  } else {
-    return {
-      ...item,
-    };
   }
+  return {
+    ...item,
+  };
 });
 
 console.log(newlaptopList);
