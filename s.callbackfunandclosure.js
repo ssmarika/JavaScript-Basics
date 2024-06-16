@@ -15,7 +15,7 @@ const getSum = (x, y, callBack) => {
 getSum(5, 6, (value) => console.log(value));
 
 // ? function returning function
-// closure => function + lexical environment(surrounding environment)
+// !closure => function + lexical environment(surrounding environment)
 
 // const makeAdder = (x) => {
 //   const doSum = (y) => {
