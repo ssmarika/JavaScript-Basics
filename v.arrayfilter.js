@@ -7,6 +7,7 @@
 // discards undefined which could be seen in map
 // if the condition in the return sectipn is true then onl;y it returns the value
 // basically if the return value is a truthy value it returns that particular element of the array to the new array
+// return ma bhayeko value le bhanda tyo value truthy cha ki falsy cha tesle chai kei kura return garne ki nagarne bhanera determine garcha
 // condition must be satisfied to return any item
 // use concept of truthy and falsy value
 // order of item, index and array is extremely important
