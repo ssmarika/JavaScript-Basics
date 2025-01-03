@@ -84,3 +84,7 @@ const sayHi = () => {
 };
 
 sayHi();
+
+// ? ARCHiTECTURE OF WEB APP
+// 1. Monolith
+// 2. Microservice
